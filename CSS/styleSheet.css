@@ -42,9 +42,11 @@ nav li {
     margin-top: -50px;
 }
 
-.hexigon{
-    margin-left: 150px;
+header h1{
+    width: 170px;
+    margin: 0 auto;
 }
+
 .template{
     display: none;
 }
@@ -68,4 +70,7 @@ hr {
     width: 100px;
     height: auto;
     padding-right: 25px;
+}
+.projectDate{
+    padding-left: 65px;
 }
