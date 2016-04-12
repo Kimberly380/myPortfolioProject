@@ -51,3 +51,5 @@ projectData.forEach(function(ele) {
 projects.forEach(function(a){
     $('#projects').append(a.toHtml())
 });
+
+//making a quick change for git....
