@@ -22,10 +22,10 @@ Project.prototype.toHtml = function() {
     $newProject.find('#projectDescription').text(this.projectDescription);
   // $newProject.find('#relatedLinks').text(this.relatedLinks);
 
+//I AM TRYING TO FIGURE OUT HOW TO ADD THE ARRAY OF ROLES (THIS.MYROLE) TO THE HTML BY ADDIN <li> TAGS FOR EACH ROLE IN THE ARRAY.
 
 
-
-
+//THESE ARE FOR TOMORROW:
   // Include the publication date as a 'title' attribute to show on hover:
   //$newProject.find('time[pubdate]').attr('title', this.publishedOn)
 
@@ -39,7 +39,7 @@ Project.prototype.toHtml = function() {
     return $newProject;
 }
 
-
+//ALSO FOR TOMORROW
 // rawData.sort(function(a,b) {
 //   return (new Date(b.publishedOn)) - (new Date(a.publishedOn));
 // });

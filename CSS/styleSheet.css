@@ -45,6 +45,27 @@ nav li {
 .hexigon{
     margin-left: 150px;
 }
-.projectTemplate{
-    display:none;
+.template{
+    display: none;
+}
+hr {
+    width: 45%;
+    margin: 0 auto;
+}
+#socialLinks{
+    display:flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 0px;
+}
+#companyInfo{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+#companyLogo{
+    width: 100px;
+    height: auto;
+    padding-right: 25px;
 }
