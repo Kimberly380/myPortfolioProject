@@ -1,0 +1,50 @@
+*{
+    margin: 0px;
+    box-sizing: border-box;
+    padding: 0px;
+    font-family: sans-serif;
+}
+
+
+header{
+    width: 100%;
+    margin-top: 50px;
+}
+
+#myLogo{
+    width: 100%;
+
+}
+
+#logo{
+    position: relative;
+    left: 46%;
+}
+
+nav {
+    width: 100%;
+    margin: 0 auto;
+    max-width: 900px;
+    height: 100px;
+}
+
+nav ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+nav a{
+    text-decoration: none;
+    color: black;
+}
+
+nav li {
+    margin-top: -50px;
+}
+
+.hexigon{
+    margin-left: 150px;
+}
+.projectTemplate{
+    display:none;
+}
