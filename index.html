@@ -17,47 +17,63 @@
             </div>
 
             <nav>
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="myWork.html">Portfolio</a></li>
+                <ul class="main-nav">
+                    <li id="home">Home</li>
+                    <li id="portfolio">Portfolio</li>
                     <li><a href=""></a></li>
-                    <li><a href="">Contact</a></li>
-                    <li><a href="">About</a></li>
+                    <li id="contact">Contact</li>
+                    <li id="about">About</li>
                 </ul>
             </nav>
-
-            <h1>MY WORK</h1>
         </header>
 
+        <main>
+            <section class="home">
+                <div id="homeHeader">
+                    <p>have no idea what to put here, just trying to add some elements to "home" so I can see if I can hide it. :)</p>
+                    <img src="images/placeholder1.png" />
+                </div>
+            </section>
 
-        <section id="projects">
-            <article class="template" >
-                <header>
-                    <div id="companyInfo">
-                        <img  id="companyLogo" src="" />
-                        <h2 id="companyName">Comapany Name</h2>
-                        <p id="projectDate">projectDate</p>
-                    </div>
-                    
-                    <address>
-                        street Address<br>
-                        City, State zip
-                    </address>
-                </header>
+            <section class="contact">
+                <div >
+                    <h1>CALL ME!</h1>
+                    <img src="images/callMe.gif" />
+                </div>
+            </section>
 
-                <p id="projectDescription">project description paragraph</p>
+            <section id="projects" class="portfolio">
+                <h1>MY WORK</h1>
+                <article class="template" id="portfolio">
+                    <header>
+                        <div id="companyInfo">
+                            <img  id="companyLogo" src="" />
+                            <h2 id="companyName">Comapany Name</h2>
+                            <p id="projectDate">projectDate</p>
+                        </div>
 
-                <ul class="myRoleList">My Role:
-                    <li>What I did</li>
-                    <li>What else I did</li>
-                </ul>
+                        <address>
+                            street Address<br>
+                            City, State zip
+                        </address>
+                    </header>
 
-                <a id="relatedLinks" href""></a>
-            </article>
-        </section>
+                    <p id="projectDescription">project description paragraph</p>
+
+                    <ul class="myRoleList">My Role:
+                        <li>What I did</li>
+                        <li>What else I did</li>
+                    </ul>
+
+                    <a id="relatedLinks" href""></a>
+                </article>
+            </section>
+        </main>
+
 
         <script src="https://code.jquery.com/jquery-2.2.3.min.js"></script>
         <script src="JS/projectData.js"></script>
         <script src="JS/app.js"></script>
+        <script src="JS/nav.js"></script>
     </body>
 </html>
