@@ -20,10 +20,10 @@ $(function() {
 });
 
 
-//don't know why the below code does not work.  Going to leave it out for now.
-// $('#hamburger').hover(function(){
-//     $('nav ul').css('display','flex');
-//     }, function(){
-//     $('nav ul').css('display','none');
-//     }
-// );
+// don't know why the below code does not work.  Going to leave it out for now.
+$('#hamburger').hover(function(){
+  $('nav ul').css('display','flex');
+}, function(){
+  $('nav ul').css('display','none');
+}
+);

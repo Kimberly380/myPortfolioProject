@@ -10,9 +10,7 @@
         flex-direction: row;
         justify-content: space-between;
         list-style: none;
-        color: #3e3f3f;
-        background-color: white;
-    }
+      }
     nav li:not(#placeHolder){
         padding: 0;
         border-bottom: 4px solid #f47878;
@@ -33,9 +31,6 @@
 
 /*
 
-
-
-
 .template{
     display: none;
 }
@@ -48,18 +43,4 @@ hr {
     justify-content: flex-end;
     align-items: center;
     height: 0px;*/
-}
-#companyInfo{
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-}
-
-#companyLogo{
-    width: 100px;
-    height: auto;
-    padding-right: 25px;
-}
-.projectDate{
-    padding-left: 65px;
-}
+/*}*/
