@@ -2,8 +2,10 @@
     nav {
         margin: 0 auto;
         max-width: 800px;
+        position: relative;
     }
     nav ul{
+        position: absolute;
         display: flex;
         flex-direction: row;
         justify-content: space-between;
@@ -12,10 +14,20 @@
         background-color: white;
     }
     nav li:not(#placeHolder){
-        margin-top: -75px;
+        padding: 0;
         border-bottom: 4px solid #f47878;
+        border-top: 0px;
+        width: 80px;
     }
-
+    #socialLinks{
+        max-width: 800px;
+        width: 100%;
+        margin: 0 auto;
+        display: block;
+    }
+    #socialLinks a{
+        text-align: left;
+    }
 }
 
 

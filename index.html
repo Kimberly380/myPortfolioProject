@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <title>Kim's Portfolio</title>
         <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes">
-        <link rel="stylesheet" href="css/icons.css" />
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
         <link rel="stylesheet" href="css/baseStyle.css" />
         <link rel="stylesheet" href="css/styleSheet.css" />
     </head>
@@ -15,9 +15,11 @@
                 <a href="index.html"><img id="logo" src="images/myLogo.png" /></a>
             </div>
 
+
             <nav>
+                <a id="hamburger"><img src="images/hamburgerIcon.png" /></a>
                 <ul class="main-nav">
-                    <li id="home">Home</li>
+                    <li id="home"><i class="fa fa-home fa-fw" aria-hidden="true"></i>Home</li>
                     <li id="portfolio">Portfolio</li>
                     <li id="placeHolder"><a href=""></a></li>
                     <li id="about">About</li>
@@ -25,9 +27,10 @@
                 </ul>
             </nav>
             <div id="socialLinks">
-                <!-- <a href="https://www.linkedin.com/in/kimfeinberg" target="-blank"><img src="images/linkedInIcon.png" /></a>
-                <a class="icon-github" href="https://github.com/Kimberly380" target="-blank"></a> -->
+                <a href="https://www.linkedin.com/in/kimfeinberg" target="blank"><i class="fa fa-linkedin-square fa-lg" aria-hidden="true"></i></a>
+                <a class="icon-github" href="https://github.com/Kimberly380" target="blank"><i class="fa fa-github fa-lg" aria-hidden="true"></i></a>
             </div>
+
         </header>
 
         <main>
@@ -44,7 +47,7 @@
             <section class="contact">
                 <div >
                     <h1>CALL ME!</h1>
-                    <img src="images/callMe.gif" />
+                    <img id="contactImg" src="images/callMe.gif" />
                 </div>
             </section>
 
@@ -81,5 +84,6 @@
         <script src="JS/projectData.js"></script>
         <script src="JS/app.js"></script>
         <script src="JS/nav.js"></script>
+
     </body>
 </html>
