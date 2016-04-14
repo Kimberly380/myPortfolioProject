@@ -1,51 +1,40 @@
-*{
-    margin: 0px;
-    box-sizing: border-box;
-    padding: 0px;
-    font-family: sans-serif;
+@media screen and (min-width: 400px){
+    nav {
+        margin: 0 auto;
+        max-width: 800px;
+        position: relative;
+    }
+    nav ul{
+        position: absolute;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        list-style: none;
+        color: #3e3f3f;
+        background-color: white;
+    }
+    nav li:not(#placeHolder){
+        padding: 0;
+        border-bottom: 4px solid #f47878;
+        border-top: 0px;
+        width: 80px;
+    }
+    #socialLinks{
+        max-width: 800px;
+        width: 100%;
+        margin: 0 auto;
+        display: block;
+    }
+    #socialLinks a{
+        text-align: left;
+    }
 }
 
 
-header{
-    width: 100%;
-    margin-top: 50px;
-}
+/*
 
-#myLogo{
-    width: 100%;
 
-}
 
-#logo{
-    position: relative;
-    left: 46%;
-}
-
-nav {
-    width: 100%;
-    margin: 0 auto;
-    max-width: 900px;
-    height: 100px;
-}
-
-nav ul{
-    display: flex;
-    justify-content: space-between;
-    list-style: none;
-}
-nav a{
-    text-decoration: none;
-    color: black;
-}
-
-nav li {
-    margin-top: -50px;
-}
-
-header h1{
-    width: 170px;
-    margin: 0 auto;
-}
 
 .template{
     display: none;
@@ -54,11 +43,11 @@ hr {
     width: 45%;
     margin: 0 auto;
 }
-#socialLinks{
+/*#socialLinks{
     display:flex;
     justify-content: flex-end;
     align-items: center;
-    height: 0px;
+    height: 0px;*/
 }
 #companyInfo{
     display: flex;
