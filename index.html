@@ -7,31 +7,50 @@
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
         <link rel="stylesheet" href="css/baseStyle.css" />
         <link rel="stylesheet" href="css/styleSheet.css" />
+      <script id="projectInfo" type="text/x-handlebars=template">
+        <article id="portfolio">
+          <header>
+            <div id="companyInfo">
+              <img id="companyLogo" src={{companyLogo}} />
+              <h2 id="companyName">{{companyName}}</h2>
+              <p id="projectDate">{{projectDate}} </p>
+            </div>
+            <address>
+              {{companyAddress}}
+            </address>
+          </header>
+          <p id='projectDescription'>{{projectDescription}}</p>
+            <ul class='myRoleList'>
+            {{#each myRole}}
+              <li>{{role}}</li>
+            {{/each}}
+            </ul>
+        </acrticle>
+      </script>
     </head>
 
     <body>
-        <header>
-            <div id="myLogo">
-                <a href="index.html"><img id="logo" src="images/myLogo.png" /></a>
-            </div>
+      <header>
+          <div id="myLogo">
+              <a href="index.html"><img id="logo" src="images/myLogo.png" /></a>
+          </div>
 
+          <nav>
+              <a id="hamburger"><img src="images/hamburgerIcon.png" /></a>
+              <ul class="main-nav">
+                  <li id="home"><i class="fa fa-home fa-fw" aria-hidden="true"></i>Home</li>
+                  <li id="portfolio">Portfolio</li>
+                  <li id="placeHolder"><a href=""></a></li>
+                  <li id="about">About</li>
+                  <li id="contact">Contact</li>
+              </ul>
+          </nav>
+          <div id="socialLinks">
+              <a href="https://www.linkedin.com/in/kimfeinberg" target="blank"><i class="fa fa-linkedin-square fa-lg" aria-hidden="true"></i></a>
+              <a class="icon-github" href="https://github.com/Kimberly380" target="blank"><i class="fa fa-github fa-lg" aria-hidden="true"></i></a>
+          </div>
 
-            <nav>
-                <a id="hamburger"><img src="images/hamburgerIcon.png" /></a>
-                <ul class="main-nav">
-                    <li id="home"><i class="fa fa-home fa-fw" aria-hidden="true"></i>Home</li>
-                    <li id="portfolio">Portfolio</li>
-                    <li id="placeHolder"><a href=""></a></li>
-                    <li id="about">About</li>
-                    <li id="contact">Contact</li>
-                </ul>
-            </nav>
-            <div id="socialLinks">
-                <a href="https://www.linkedin.com/in/kimfeinberg" target="blank"><i class="fa fa-linkedin-square fa-lg" aria-hidden="true"></i></a>
-                <a class="icon-github" href="https://github.com/Kimberly380" target="blank"><i class="fa fa-github fa-lg" aria-hidden="true"></i></a>
-            </div>
-
-        </header>
+      </header>
 
         <main>
             <section class="home">
@@ -53,34 +72,13 @@
 
             <section id="projects" class="portfolio">
                 <h1>MY WORK</h1>
-                <article class="template" id="portfolio">
-                    <header>
-                        <div id="companyInfo">
-                            <img  id="companyLogo" src="" />
-                            <h2 id="companyName">Comapany Name</h2>
-                            <p id="projectDate">projectDate</p>
-                        </div>
-
-                        <address>
-                            street Address<br>
-                            City, State zip
-                        </address>
-                    </header>
-
-                    <p id="projectDescription">project description paragraph</p>
-
-                    <ul class="myRoleList">My Role:
-                        <li>What I did</li>
-                        <li>What else I did</li>
-                    </ul>
-
-                    <a id="relatedLinks" href""></a>
-                </article>
             </section>
+
         </main>
 
 
         <script src="https://code.jquery.com/jquery-2.2.3.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.4/handlebars.js"></script>
         <script src="JS/projectData.js"></script>
         <script src="JS/app.js"></script>
         <script src="JS/nav.js"></script>
