@@ -23,7 +23,7 @@ Project.prototype.toHtml = function() {
   // $newProject.find('time').html('about ' + parseInt((new Date() - new Date(this.publishedOn))/60/60/24/1000) + ' days ago')
 };
 
-//ALSO FOR TOMORROW
+//ALSO FOR LATER
 // rawData.sort(function(a,b) {
 //   return (new Date(b.publishedOn)) - (new Date(a.publishedOn));
 // });

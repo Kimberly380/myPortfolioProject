@@ -44,7 +44,7 @@ nav li:not(#placeHolder){
 }
 
 #hamburger{
-    visibility: visible; /* leave hidden until I can figure out how to show hide menu*/
+    visibility: hidden; /* leave hidden until I can figure out how to show hide menu*/
     float: right;
     margin-top: 0px;
     position: relative;
