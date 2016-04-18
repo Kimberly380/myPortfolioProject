@@ -1,0 +1,15 @@
+nav ul{
+    color: white;
+    background-color: #f47878;
+  }
+
+  #socialLinks a{
+      color: gray;
+  }
+
+@media screen and (min-width: 400px){
+    nav ul{
+      color: #3e3f3f;
+      background-color: white;
+    }
+}
