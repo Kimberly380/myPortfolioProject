@@ -10,6 +10,13 @@ function Project (myProjects) {
     // this.relatedLinks       = myProjects.relatedLinks;
 }
 
+//simplified version of above:  (will use one I understand it...)
+// function Project (opts) {
+//   for (key in opts) this[key] = opts[key];
+// };
+
+
+
 Project.prototype.toHtml = function() {
   var source = $('#projectInfo').html();
   var template=Handlebars.compile(source);
